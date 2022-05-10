@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    margin: 0px;
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+.priceList{
+    width: 20vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.priceList div{
+    /* Border */
+    border-color:#c4c4c4;
+    border-style: solid;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-width: 1px;
+
+    /* Text */
+    color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+
+    /* size */
+    height: 35px;
+    min-height: 25px;
+}
+.priceList div:hover{
+    background-color: blue;
+}
+.priceList div.gold{
+    color: #FFF50C;
+}
+.priceList div.price{
+    color: #FF0505;
+}
